@@ -2,6 +2,7 @@ import React from 'react';
 import { hydrate, render } from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { unregister } from './serviceWorkerRegistration';
 
 // See https://reactjs.org/docs/strict-mode.html
 const StrictApp = () => (
@@ -23,3 +24,4 @@ if (rootElement.hasChildNodes()) {
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals(console.log);
+unregister();

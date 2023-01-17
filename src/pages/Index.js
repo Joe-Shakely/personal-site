@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import DunkContest from '../components/About/DunkContest';
 import Main from '../layouts/Main';
 
 const Index = () => (
@@ -11,13 +11,12 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
-          </p>
+          <h2 data-testid="heading"><Link to="/">About Me</Link></h2>
         </div>
       </header>
+      <article className="dunk">
+      <DunkContest />
+      </article>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
