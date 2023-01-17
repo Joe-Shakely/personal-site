@@ -1,50 +1,5 @@
 const resume = [
   {
-    main: {
-      name: 'Joe Shakely',
-      occupation: 'Software Engineer',
-      description: '.',
-      image: 'profilepic.jpg',
-      bio: 'My professional experience consists of over 10 years’ building software solutions for clients in the financial technology software sector.',
-      contactmessage: "Send me a quick message if you're interested in getting in touch",
-      email: 'shakelyconsultingllc@gmail.com',
-      phone: '',
-      address: {
-        street: "1369 Wouldn't Ya LiketaKnow",
-        city: 'California',
-        Burlingame: 'Spain',
-        state: 'Spain',
-        zip: '93696',
-      },
-      website: 'https://shakely-consulting.github.io/',
-      social: [
-        {
-          name: 'facebook',
-          url: 'https://www.facebook.com/joe.shakely',
-          className: 'fa fa-facebook',
-        },
-        {
-          name: 'twitter',
-          url: 'http://twitter.com',
-          className: 'fa fa-twitter',
-        },
-        {
-          name: 'linkedin',
-          url: 'https://www.linkedin.com/in/josephshakely',
-          className: 'fa fa-linkedin',
-        },
-        {
-          name: 'instagram',
-          url: 'http://instagram.com/joeshakely',
-          className: 'fa fa-instagram',
-        },
-        {
-          name: 'github',
-          url: 'http://github.com/messidagod',
-          className: 'fa fa-github',
-        },
-      ],
-    },
     resume: {
       skillmessage: '',
       education: [
@@ -100,61 +55,6 @@ const resume = [
             'Served as Technical Consultant on JP Morgan Asset Management’s migration from MRI to Yardi Systems.',
             'Supported clients using Yardi’s Investment Management module such as the Canadian Pension Plan Investment Board, Citco Fund Services, and MetLife.',
           ],
-        },
-      ],
-      skills: [
-        {
-          name: 'C#',
-          level: '100%',
-        },
-        {
-          name: 'Javascript',
-          level: '85%',
-        },
-        {
-          name: 'T-SQL',
-          level: '100%',
-        },
-        {
-          name: 'SQL Server',
-          level: '100%',
-        },
-        {
-          name: 'CSS',
-          level: '90%',
-        },
-        {
-          name: 'HTML',
-          level: '80%',
-        },
-        {
-          name: 'Git',
-          level: '90%',
-        },
-        {
-          name: 'React',
-          level: '70%',
-        },
-      ],
-    },
-    portfolio: {
-      projects: [
-        {
-          title: 'Yardi Payable Interface',
-          category: 'Yardi AP Payable Interface',
-          image: 'project1.jpg',
-          url: 'Yardi API Interface 01.13.2023.mp4',
-        },
-      ],
-    },
-    testimonials: {
-      testimonials: [
-        {
-          text: '',
-          user: '',
-        },
-        {
-          text: '',
         },
       ],
     },

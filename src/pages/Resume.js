@@ -13,6 +13,7 @@ import References from '../components/Resume/References';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
+import resume from '../data/resume';
 
 const sections = [
   'Education',

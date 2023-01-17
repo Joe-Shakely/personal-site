@@ -1,9 +1,9 @@
 /* eslint-disable no-shadow */
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import NewResume from '../data/resume/NewResume';
+import resume from '../data/resume';
 
-const education = this.props.education.map((education) => (
+const education = resume.map((education) => (
   <div key={education.school}>
     <h3>{education.school}</h3>
     <p className="info">
